@@ -1,0 +1,83 @@
+@import "../../../color-variables.scss";
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 84px;
+}
+
+.main-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  font-family: "Roboto", sans-serif;
+
+  span{
+    font-size: 20px;
+    font-weight: 700;
+    color: $secondary-text;
+  }
+
+  h1{
+    font-size: 72px;
+    font-weight: 900;
+    color: $primary-text;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+}
+
+}
+
+.benefit-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 70px;
+
+  .benefit-data {
+      border-bottom: 10px solid $secondary-color;
+      padding-bottom: 20px;
+
+      h2 {
+          font-size: 48px;
+          font-weight: 600;
+          font-family: "Roboto", sans-serif;
+          color: $primary-text;
+      }
+  }
+
+  p {
+      font-size: 40px;
+      font-style: italic;
+      font-family: "Poppins",sans-serif;
+      font-weight: 300;
+
+      b {
+          background: -webkit-linear-gradient(180deg, $light-primary-color, $secondary-color);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-style: normal;
+      }
+  }
+}
+
+
+
+@media (min-width: 1080px){
+  .main-seaction{
+    flex-direction: row;
+  }
+
+  .benefit-section {
+    flex-direction: row;
+  }
+
+}
