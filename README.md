@@ -2,7 +2,7 @@
 
 ![web](https://github.com/Fernanda-Kipper/landing-page-ssr/blob/main/.github/landing-page.png)
 
-#About Project
+# About Project
 
 This repository contains a Landing Page built with Angular 12 using the SSR mechanism, developed during a live class with Fernanda Kipper.
 
