@@ -1,6 +1,6 @@
 # LandingPage / SSR
 
-(https://github.com/Fernanda-Kipper/landing-page-ssr/blob/main/.github/landing-page.png)
+![web](https://github.com/Fernanda-Kipper/landing-page-ssr/blob/main/.github/landing-page.png)
 
 #About Project
 
